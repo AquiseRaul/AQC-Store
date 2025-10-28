@@ -2,7 +2,7 @@
 const productos = [
   { id: 1, nombre: "Polo blanco", precio: 35, categoria: "ropa", imagen: "img/polo.jpg", descripcion: "Polo de algodón 100% suave y cómodo." },
   { id: 2, nombre: "Gorra azul", precio: 25, categoria: "accesorios", imagen: "img/gorra.jpg", descripcion: "Gorra ajustable con diseño moderno." },
-  { id: 3, nombre: "Zapatillas deportivas", precio: 120, categoria: "calzado", imagen: "img/zapatillas.jpg", descripcion: "Zapatillas ligeras para entrenamiento diario." },
+  //{ id: 3, nombre: "Zapatillas deportivas", precio: 120, categoria: "calzado", imagen: "img/zapatillas.jpg", descripcion: "Zapatillas ligeras para entrenamiento diario." },
   { id: 4, nombre: "Polo blanco", precio: 35, categoria: "ropa", imagen: "img/polo.jpg", descripcion: "Polo de algodón 100% suave y cómodo." },
   { id: 5, nombre: "Gorra azul", precio: 25, categoria: "accesorios", imagen: "img/gorra.jpg", descripcion: "Gorra ajustable con diseño moderno." },
   { id: 6, nombre: "Zapatillas deportivas", precio: 120, categoria: "calzado", imagen: "img/zapatillas.jpg", descripcion: "Zapatillas ligeras para entrenamiento diario." }
@@ -94,4 +94,5 @@ if (detalle) {
     detalle.innerHTML = "<p>Producto no encontrado.</p>";
   }
 }
+
 
